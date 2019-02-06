@@ -10,7 +10,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <h1 className="title">Moss Taekwondo Klubb</h1>
+      <h1 className="title"><i className="fas fa-chevron-left" /> Moss Taekwondo Klubb <i className="fas fa-chevron-right"/></h1>
+      <p className="subtitle">Østfolds eldste og største Taekwondoklubb.</p>
       </div>
     );
   }
