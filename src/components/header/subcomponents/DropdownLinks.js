@@ -6,8 +6,8 @@ const DropdownLinks = props => (
 			Informasjon
 		</a>
 		<div className="navbar-dropdown">
-			{props.links.map(item => (
-				<a href={item.address} className="navbar-item">
+			{props.links.map((item, index) => (
+				<a key={index} href={item.address} className="navbar-item">
 					{item.name}
 				</a>
 			))}
