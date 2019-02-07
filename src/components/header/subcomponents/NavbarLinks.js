@@ -2,7 +2,10 @@ import React from "react";
 
 const NavbarLinks = props =>
 	props.links.map((item, index) => (
-		<a key={index} href={item.address} className="navbar-item uppercase">
+		<a
+			key={index}
+			href={item.address}
+			className="has-text-white navbar-item uppercase">
 			{item.name}
 		</a>
 	));

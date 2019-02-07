@@ -16,11 +16,15 @@ import "./header.css";
 import config from "./config";
 
 const Header = () => {
-	const { navbarLinks, dropdownLinks, brandName } = config;
+	const {
+		navbarLinks,
+		dropdownLinks,
+		brandName
+	} = config;
 
 	return (
 		<header>
-			<nav className="navbar is-fixed-top border-bottom">
+			<nav className="navbar border-bottom is-fixed-top is-black">
 				<Brand name={brandName} />
 				<NavbarEnd
 					navbarLinks={navbarLinks}

@@ -3,14 +3,13 @@
  */
 
 .uppercase {
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 .bold {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 .border-bottom {
-    border-bottom: 1px solid black; /* TODO: change color to suit background */ 
+	border-bottom: 1px solid black; /* TODO: change color to suit background */
 }
-
