@@ -1,0 +1,16 @@
+/*
+ * <Hapkido> component styles
+ */
+
+.is-full-height {
+	min-height: 100vh;
+}
+
+.has-background-img-hkd {
+	background-image: url("../../../../img/clouds-fight.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #999;
+}

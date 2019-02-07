@@ -1,0 +1,16 @@
+/*
+ * <Jujutsu> component styles
+ */
+
+.is-full-height {
+	min-height: 100vh;
+}
+
+.has-background-img-bjj {
+	background-image: url("../../../../img/jujutsu.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #999;
+}

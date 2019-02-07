@@ -1,0 +1,16 @@
+/*
+ * <Hapkido> component styles
+ */
+
+.is-full-height {
+	min-height: 100vh;
+}
+
+.has-background-img-mt {
+	background-image: url("../../../../img/boxing.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #999;
+}
