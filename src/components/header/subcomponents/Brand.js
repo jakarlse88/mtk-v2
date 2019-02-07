@@ -4,7 +4,7 @@ const Brand = props => (
 	<div className="navbar-brand">
 		<a
 			href="/"
-			className="navbar-item uppercase bold has-text-white">
+			className="navbar-item has-text-black uppercase is-size-4">
 			{props.name}
 		</a>
 	</div>

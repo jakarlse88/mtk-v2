@@ -1,18 +1,16 @@
 import React from "react";
 
 const DropdownLinks = props => (
-	<div className="navbar-item has-dropdown is-hoverable has-background-black">
-		<a
-			href="/"
-			className="navbar-link uppercase has-text-white">
+	<div className="navbar-item has-dropdown is-hoverable">
+		<a href="/" className="navbar-link uppercase">
 			Informasjon
 		</a>
-		<div className="navbar-dropdown has-background-black">
+		<div className="navbar-dropdown">
 			{props.links.map((item, index) => (
 				<a
 					key={index}
 					href={item.address}
-					className="has-text-white has-background-black navbar-item">
+					className="navbar-item">
 					{item.name}
 				</a>
 			))}

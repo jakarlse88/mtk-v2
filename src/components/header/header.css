@@ -11,5 +11,5 @@
 }
 
 .border-bottom {
-	border-bottom: 1px solid black; /* TODO: change color to suit background */
+	border-bottom: 1px solid lightgrey; /* TODO: change color to suit background */
 }

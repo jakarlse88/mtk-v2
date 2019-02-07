@@ -5,7 +5,7 @@ const NavbarLinks = props =>
 		<a
 			key={index}
 			href={item.address}
-			className="has-text-white navbar-item uppercase">
+			className="navbar-item uppercase">
 			{item.name}
 		</a>
 	));

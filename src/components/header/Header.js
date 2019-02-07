@@ -24,12 +24,14 @@ const Header = () => {
 
 	return (
 		<header>
-			<nav className="navbar border-bottom is-fixed-top is-black">
-				<Brand name={brandName} />
-				<NavbarEnd
-					navbarLinks={navbarLinks}
-					dropdownLinks={dropdownLinks}
-				/>
+			<nav className="navbar border-bottom is-fixed-top">
+				<div className="container">
+					<Brand name={brandName} />
+					<NavbarEnd
+						navbarLinks={navbarLinks}
+						dropdownLinks={dropdownLinks}
+					/>
+				</div>
 			</nav>
 		</header>
 	);
