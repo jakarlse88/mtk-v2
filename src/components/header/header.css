@@ -11,5 +11,15 @@
 }
 
 .border-bottom {
-	border-bottom: 1px solid lightgrey; /* TODO: change color to suit background */
+	border-bottom: 1px solid lightgrey;
+}
+
+#header {
+	opacity: 0;
+	transition: all 0.3s;
+}
+
+#header.active {
+	opacity: 1;
+	margin: auto auto 5em;
 }
