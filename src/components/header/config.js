@@ -7,19 +7,19 @@ const config = {
 	navbarLinks: [
 		{
 			name: "taekwondo",
-			address: "/"
+			address: "#section-taekwondo"
 		},
 		{
 			name: "hapkido",
-			address: "/"
+			address: "#section-hapkido"
 		},
 		{
 			name: "jujutsu",
-			address: "/"
+			address: "#section-jujutsu"
 		},
 		{
 			name: "muay thai",
-			address: "/"
+			address: "#section-muaythai"
 		}
 	],
 	dropdownLinks: [

@@ -10,7 +10,9 @@ import "./hapkido.css";
 
 const Hapkido = () => {
 	return (
-		<div className="section is-full-height has-background-img-hkd">
+		<div
+			className="section is-full-height has-background-img-hkd"
+			id="section-hapkido">
 			<div className="container">
 				<h1 className="title has-text-left has-text-white">
 					Hapkido

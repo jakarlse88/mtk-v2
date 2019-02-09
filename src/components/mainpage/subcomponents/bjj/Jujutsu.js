@@ -10,7 +10,9 @@ import "./jujutsu.css";
 
 const Jujutsu = () => {
 	return (
-		<div className="section is-full-height has-background-img-bjj">
+		<div
+			className="section is-full-height has-background-img-bjj"
+			id="section-jujutsu">
 			<div className="container">
 				<h1 className="title has-text-right has-text-white">
 					Brasiliansk Jujutsu

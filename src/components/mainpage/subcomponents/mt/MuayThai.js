@@ -10,7 +10,9 @@ import "./muaythai.css";
 
 const MuayThai = () => {
 	return (
-		<div className="section is-full-height has-background-img-mt">
+		<div
+			className="section is-full-height has-background-img-mt"
+			id="section-muaythai">
 			<div className="container">
 				<h1 className="title has-text-left has-text-white">
 					Muay Thai

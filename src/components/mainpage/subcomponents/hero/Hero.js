@@ -22,7 +22,7 @@ const Hero = props => {
 	});
 
 	return (
-		<section className="hero is-fullheight has-background-img">
+		<section className="hero is-fullheight has-background-img" id="mainpage-hero">
 			<div className="hero-body">
 				<div className="container has-text-centered">
 					<h1 className={titleClassNames}>

@@ -10,7 +10,9 @@ import "./taekwondo.css";
 
 const Taekwondo = () => {
 	return (
-		<div className="section is-full-height has-background-img-tkd">
+		<div
+			className="section is-full-height has-background-img-tkd"
+			id="section-taekwondo">
 			<div className="container">
 				<h1 className="title has-text-right has-text-white">
 					Taekwondo
